@@ -127,7 +127,6 @@ window.onload = function(){
 				GO_TO(e.latLng, map);
 			}
 		});
-
 		function GO_TO(latLng, map) {
 			var request = {
 				origin : urgence_marker.position,
