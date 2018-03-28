@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+        <title>Détruisez Paris !</title>
+        <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #map_canvas {
+            height: 900px;
+            width: 1500px;
+            margin: auto;
+        } 
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRumyuQN4XXcs696xxJvkyRVzh3mki3-I"></script>
+    <script src="scriptEnnemi.js"></script>
+	
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	
+</head>
+
+<div style="margin-left:2%;" id="map_canvas"></div>
+<div style="position:absolute; top: 10px;right: 0px;width: 340px;height: 800px;">
+	 <strong><p style="color:red" id="nbatt">Nombre d'attaques restantes : </p></strong>
+	  <p id="seconds"></p>
+	 <p id="secondsIncendie"></p>
+	 <p id="secondsMeurtre"></p>
+	 <p id="secondsMalaise"></p>
+	 <p id="secondsAccident"></p>
+	 <p id="secondsAttentat"></p>
+</div>
+</body>
+</html>
