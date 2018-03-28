@@ -220,7 +220,7 @@ window.onload = function(){
 
 			$.ajax({
 			type: "POST",
-			url: "updategentil.php",
+			url: "php/updategentil.php",
 			data: dataString,
 			
 			});
@@ -342,7 +342,7 @@ window.onload = function(){
 			
 			$.ajax({
 				type: "POST",
-				url: "posEnnemi.php",
+				url: "php/posEnnemi.php",
 				datatype: 'JSON',
 				success: function (tableauPos) {
 				var t= JSON.parse(tableauPos);

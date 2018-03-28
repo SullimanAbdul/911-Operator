@@ -294,7 +294,7 @@ window.onload = function(){
 
 			$.ajax({
 			type: "POST",
-			url: "update.php",
+			url: "php/update.php",
 			data: dataString,
 			
 		});
@@ -302,7 +302,7 @@ window.onload = function(){
 		window.setInterval(function(){
 			$.ajax({
 				type: "POST",
-			url: "pos.php",
+			url: "php/pos.php",
 			datatype: 'JSON',
 			success: function (tableauPos) {
 				var t= JSON.parse(tableauPos);
@@ -550,7 +550,7 @@ window.onload = function(){
 		var dataS = "gagnant="+gagnant; 
 			$.ajax({
 				type: "POST",
-				url: "Setgagnant.php",
+				url: "php/Setgagnant.php",
 				data: dataS
 			})
 		
