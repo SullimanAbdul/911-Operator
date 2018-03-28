@@ -1,4 +1,5 @@
 window.onload = function(){
+	alert("si vous êtes sur ce site via github je vous conseille de le télécharger le dossier et de l'installer dans votre wamp");
         var styles = {
             'monTheme': [
              {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
