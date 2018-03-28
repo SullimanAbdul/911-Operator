@@ -2,10 +2,10 @@
  
 		//include db configuration file
 		//include_once("config.php");
-		$username = "dalmeida"; //mysql username
-		$password = "ADR95z380"; //mysql password
+		$username = "root"; //mysql username
+		$password = ""; //mysql password
 		$hostname = "localhost"; //hostname
-		$databasename = 'pweb17_dalmeida'; //databasename
+		$databasename = 'pwebc'; //databasename
 	 
 		$connecDB = mysqli_connect($hostname, $username, $password,$databasename);
 	 
