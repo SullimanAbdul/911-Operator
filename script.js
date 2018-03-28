@@ -420,7 +420,7 @@ window.onload = function(){
 				isIn();
 			}
 			})
-			verifGagnant();
+			
 		},1000);
 		
 		
