@@ -112,7 +112,7 @@ window.onload = function(){
 			urgence_serv =  directionsServiceAmbulance;
 			urgence_disp = directionsDisplayAmbulance;
 		});
-		
+		alert('Si vous êtes sur ce site via github je vous conseille de télécharger le projet ici :https://github.com/SullimanAbdul/911-Operator  et de le mettre sur votre wamp');
 		map.addListener('click', function(e) {
 			info.close();
 			if(urgence_marker.title == 'POLICIER' && deplacementPolice == 0){
